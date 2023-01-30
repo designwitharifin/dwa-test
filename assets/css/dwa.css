@@ -424,6 +424,92 @@ body {
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* Form style
+*-----------------------------------------------------------------------------------------------
+* Styling form input with animte css 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.form-control {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid var(--gray-200);
+    padding: 20px 0;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 43px;
+    color: var(--black);
+    font-family: 'Poppins';
+    transition: 0.5s;
+}
+
+.tablet__layout .form-control {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1.5px solid var(--gray-200);
+    padding: 20px 0;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 23px;
+    color: var(--black);
+    font-family: 'Poppins';
+    transition: 0.5s;
+}
+
+.form-control:hover {
+    border-bottom: 2px solid var(--gray-500);
+    box-shadow: none;
+}
+
+.tablet__layout .form-control:hover {
+    border-bottom: 1.5px solid var(--gray-500);
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-bottom: 2px solid var(--black);
+    box-shadow: none;
+}
+
+.tablet__layout .form-control:focus {
+    border-bottom: 1.5px solid var(--black);
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    padding: 0;
+    color: var(--slate-300);
+}
+
+.tablet__layout .form-control::placeholder {
+    padding: 0;
+    color: var(--slate-300);
+}
+
+.form-group {
+    margin-bottom: 70px;
+}
+
+.tablet__layout .form-group {
+    margin-bottom: 40px;
+}
+
+.pb-250 {
+    padding-bottom: 250px;
+}
+
+.pt-250 {
+    padding-top: 250px;
+}
+
+.pb-150 {
+    padding-bottom: 150px;
+}
+
+.pt-150 {
+    padding-top: 150px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 * Cursor animate hover setup
 *-----------------------------------------------------------------------------------------------
 * Styling animte css cursor text hover 
