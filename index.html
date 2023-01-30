@@ -267,7 +267,7 @@
 
             <!-- Footer section -->
             <footer data-scroll-section="">
-                <div class="say__hi container py-5 my-5" data-scroll="" data-scroll-delay="0.18" data-scroll-speed="2">
+                <div class="say__hi container" data-scroll="" data-scroll-delay="0.18" data-scroll-speed="2">
                     <div class="row">
                         <div class="col-lg-6">
                             <a href="contact/" class="line-light-in line-light-in-to-side">
@@ -587,13 +587,23 @@
     <script src="assets/js/app.js"></script>
     <script>
         // Smooth Data scroll
-        const Locoscroll = new LocomotiveScroll({
-            el: document.querySelector("[data-scroll-container]"),
-            smooth: true,
-            smartphone: {
-                smooth: false
-            }
-            //reloadOnContextChange: true
+        // const Locoscroll = new LocomotiveScroll({
+        //     el: document.querySelector("[data-scroll-container]"),
+        //     smooth: true,
+        //     smartphone: {
+        //         smooth: false
+        //     }
+        //     //reloadOnContextChange: true
+        // });
+
+        window.addEventListener("load", function (event) {
+            let lazyScroll = new LocomotiveScroll({
+                el: document.querySelector("[data-scroll-container]"),
+                smooth: true,
+                smartphone: {
+                    smooth: false
+                },
+            });
         });
 
         // Parallax
