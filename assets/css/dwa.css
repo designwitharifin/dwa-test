@@ -1197,6 +1197,22 @@ a.card {
     font-family: 'Poppins';
 }
 
+.avatar__me img {
+    width: 168px;
+    object-fit: contain;
+    border: 1px solid var(--gray-200);
+    padding: 2rem;
+    border-radius: 50%;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.bg__icon-skills {
+    border: 1px solid var(--gray-200);
+}
+
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 * Footer section
 *-----------------------------------------------------------------------------------------------
