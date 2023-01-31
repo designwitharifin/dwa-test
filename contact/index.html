@@ -127,25 +127,28 @@
                     data-scroll-speed="1">
                     <div class="container">
                         <h1 class="header__page w-50" style="font-family: 'Montserrat';">Hey! tell me
-                            what your idea 👋</h1>
+                            what your ideas 👋</h1>
                     </div>
                 </section>
                 <!-- Form section -->
                 <section class="contact__form pb-250">
                     <div class="container">
-                        <form action="#" method="post" class="w-75">
+                        <form action="https://formsubmit.co/designwitharifin@gmail.com" method="post" class="w-75">
+                            <input type="hidden" name="_subject" value="New Email!">
+                            <input type="hidden" name="_captcha" value="false">
                             <div class="form-group">
-                                <input type="text" name="" class="form-control" placeholder="Your name">
+                                <input type="text" name="name" class="form-control" placeholder="Your name">
                             </div>
                             <div class="form-group">
-                                <input type="email" name="" class="form-control" placeholder="Your email">
+                                <input type="email" name="email" class="form-control" placeholder="Your email">
                             </div>
                             <div class="form-group">
                                 <textarea name="" id="" cols="30" rows="2" class="form-control"
                                     placeholder="Tell me about your project"></textarea>
                             </div>
-                            <a href="#" class="link__content-project line-dark-in line-dark-in-to-side" target="_blank"
-                                data-magnetic data-cursor="-opaque">Send request</a>
+                            <input type="hidden" name="_next" value="https://contact-our.netlify.app/thanks.html">
+                            <button type="submit" class="link__content-project line-dark-in line-dark-in-to-side"
+                                data-magnetic data-cursor="-opaque">Send request</button>
                         </form>
                     </div>
                 </section>
