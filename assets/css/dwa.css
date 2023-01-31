@@ -1197,6 +1197,11 @@ a.card {
     font-family: 'Poppins';
 }
 
+.tablet__layout .header__page-about {
+    font-size: 30px;
+    line-height: 50px;
+}
+
 .avatar__me img {
     width: 168px;
     object-fit: contain;
@@ -1209,9 +1214,14 @@ a.card {
     padding-top: 100px;
 }
 
+.pb-100 {
+    padding-bottom: 100px;
+}
+
 .bg__icon-skills {
     border: 1px solid var(--gray-200);
 }
+
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 * Footer section

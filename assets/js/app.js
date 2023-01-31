@@ -24,3 +24,4 @@ exitBtn.addEventListener("click", () => {
     t1.reverse();
 });
 
+
